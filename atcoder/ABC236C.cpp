@@ -31,6 +31,7 @@ int main()
     
     std::set<std::string> express;
     // set을 쓰면 이중반복문 사용하지 않고 탐색가능해서 시간절약이 가능하다
+    // O(MlogM + NlogM)
     for(int i = 0; i < exp_sta; i++) {
         std::string exp_stop;
         std::cin >> exp_stop;
