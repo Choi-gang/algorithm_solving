@@ -2,7 +2,7 @@
 #include <string>
 #include <unordered_map>
 
-// map은 해당 인덱스가 몇번 등장했는지 보여줌
+// map은 해당 인덱스가 몇번 등장했는지 확인 가능
 
 int main()
 {
